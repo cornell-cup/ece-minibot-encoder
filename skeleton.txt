@@ -1,0 +1,16 @@
+
+Count the number of pulses in a given time window
+	eg in 100ms, we had xx pulses
+	
+With 200RPM and 64CPR encoder, 1 pulse is in about ~4.5ms.
+100RPM -> ~9ms
+
+PID loop should run ~100 times a second -> 10ms per run
+
+Count the time elapsed for a number of pulses
+	eg to get 10 pulses, it took xx ms
+	
+Time between every single pulse
+	eg took xx ms between pulses
+	
+Test motor = pololu 2823
